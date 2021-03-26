@@ -1,0 +1,10 @@
+<!--miniprogram/pages/qiandao/qiandao.wxml-->
+<text>miniprogram/pages/qiandao/qiandao.wxml</text>
+<view class="container">
+  <view class="mxc1">
+    <text>您已签到 {{firstTime}} 次，获得金币{{firstTime}} 个</text>
+  </view>
+  <view class="{{flag?'mxc2-1':'mxc2-2'}}" bindtap="onBindTap" disabled="{{flag}}">
+    <text>我要签到</text>
+  </view>
+</view>
