@@ -1,4 +1,5 @@
-<view id="header">
+
+    <view id="header">
     <view bindtap="showChooseCity" id="currentCity" style="{{hideCurrentCity?'opacity: 0;':''}}">
         <image id="location" src="{{images.location}}"></image>
         <text id="city">{{config.cities[city].name}}</text>
@@ -12,11 +13,13 @@
     </view>
 </view>
 <view class='ai-view'>
-  <text class='txt'>或</text>
+  <!-- <text class='txt'></text> -->
   <image src='/images/paizhao.png' class='ai-paizhao' bindtap='onBindCamera' />
-  <text class='tip'>自动识别</text>
-
+  <!-- <text class='tip'>自动识别</text> -->
 </view>
+
+
+
 <view class="box" wx:if="{{SHOW_TOP}}">
   <view class='arrow'></view>
   <view class='body' bindtap='showModal'>

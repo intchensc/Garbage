@@ -1,0 +1,1 @@
+<web-view src="https://lajifenleiapp.com" bindload="bindload" binderror="binderror"></web-view>

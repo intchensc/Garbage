@@ -217,6 +217,13 @@ button::after {
     background-color: #ffffff;
 }
 
+.hei{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: #000;
+}
+
 .result-dot {
     position: absolute;
     left: 39rpx;

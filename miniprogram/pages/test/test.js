@@ -125,6 +125,11 @@ Page({
             page: "testNoAd"
         });
     },
+    gotoPage: function (options) {
+        wx.navigateTo({
+              url: "../zhishi/zhishi",//要跳转到的页面路径
+     })  
+     },
     updateData: function() {
       var t = [];
       for (var i in a.default.data) {

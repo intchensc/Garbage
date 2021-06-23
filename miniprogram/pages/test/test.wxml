@@ -46,8 +46,9 @@
         </view>
     </view>
     <view id="testBottom">
-        <view id="adWrapper">
-            <ad bindclose="closeAd" binderror="withoutAd" bindload="withAd" unitId="adunit-7e79fb8e9ceabea0"></ad>
-        </view>
+        <view bindtap="gotoPage" id="broadcast">
+        <text class="hei">      「垃圾分类查询]</text>
     </view>
+    </view>
+    <!-- <web-view src="https://www.baidu.com" bindload="bindload" binderror="binderror"></web-view> -->
 </view>
